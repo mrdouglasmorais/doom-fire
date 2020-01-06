@@ -1,0 +1,26 @@
+<head>
+    <title>Doom fire Algorithm</title>
+    <link rel="stylesheet" href="fire.css">
+</head>
+
+<body>
+    <div id="FireTable"></div>
+    <div id="Buttons">
+        <div>
+            <span>Smoke intensity</span>
+            <input type="button" class="button" value="-" onclick="changeSmoke(this.value)">
+            <input type="button" class="button" value="+" onclick="changeSmoke(this.value)">
+        </div>
+        <div>
+            <span>Fire intensity&nbsp;</span>
+            <input type="button" class="button" value="-" onclick="changeFire(this.value)">
+            <input type="button" class="button" value="+" onclick="changeFire(this.value)">
+        </div>
+        <div>
+            <span>Root intensity&nbsp;</span>
+            <input type="button" class="button" value="-" onclick="changeRoot(this.value)">
+            <input type="button" class="button" value="+" onclick="changeRoot(this.value)">
+        </div>
+    </div>
+    <script src="./fire.js"></script>
+</body>

@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+td {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+}
+
+td.pixel {
+    width: 8px;
+    height: 8px;
+    border: 0px;
+}
+
+.pixel-index {
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: red;
+}
+
+#FireTable {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#Buttons {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(202, 60, 60);
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+}
